@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<title>Profil Saya</title>
+<style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #000000;
+      color: #FFFFFF;
+      text-align: center;
+    }
+    h1 {
+      color: #2E74B5;
+    }
+    img {
+      border-radius: 0%;
+      width: 120px;
+    }
+    table {
+      margin: auto;
+      border-collapse: collapse;
+      background-color: rgba(0, 0, 0, 0.5);
+    }
+    th, td {
+      border: 1px solid #FFFFFF;
+      padding: 8px 16px;
+    }
+</style>
+</head>
+
+<body style="background: radial-gradient(circle at center, #f44336 0%, #82241d 40%, #000 100%); min-height: 100vh; margin: 0; text-align: center;">
+
+<h1>PRAKTIKUM UJIAN TENGAH SEMESTER</h1>
+<h2>Perkenalkan Saya Muhammad Anis Fuad Ali</h2>
+<h2>Program Studi Rekayasa Keamanan Siber</h2>
+<p>NPM: 260209020</p>
+
+<p>
+Saya adalah mahasiswa semester 1 Program Studi Rekayasa Keamanan Siber
+di Politeknik Negeri Cilacap.
+Saat ini saya sedang belajar dasar-dasar
+teknologi informasi, termasuk cara kerja sebuah website.
+Selain belajar, saya juga senang menonton, membaca, dan bermain game.
+Ke depannya, saya ingin menjadi orang yang andal di bidang keamanan siber.
+</p>
+
+<img src="potret_saya.png" alt="Foto profil Ali">
+
+<h3>Hobi Saya</h3>
+<ul id="daftar-hobi" style="display: none; text-align: left; padding: 0; margin: 0; list-style-position: inside;">
+<li>Nonton</li>
+<li>Mbaca</li>
+<li>Main</li>
+</ul>
+<br>
+<button onclick="hobi()">Tampilkan / Sembunyikan Hobi</button>
+
+<h3>Riwayat Pendidikan Saya</h3>
+<table>
+    <tr>
+      <th>Jenjang</th>
+      <th>Nama Sekolah / Kampus</th>
+      <th>Tahun</th>
+    </tr>
+    <tr>
+      <td>SD</td>
+      <td>SD Negeri Gunung Simping 01</td>
+      <td>2014</td>
+    </tr>
+    <tr>
+      <td>SMP</td>
+      <td>SMP Negeri 5 Cilacap</td>
+      <td>2021</td>
+    </tr>
+    <tr>
+      <td>SMA/SMK</td>
+      <td>SMA Negeri 3 Cilacap</td>
+      <td>2024</td>
+    </tr>
+    <tr>
+      <td>Sarjana Terapan</td>
+      <td>Politeknik Negeri Cilacap</td>
+      <td>2026 - sekarang</td>
+    </tr>
+</table>
+
+<h3>Kunjungi Media Sosial Saya</h3>
+<a href="https://instagram.com/karanish.u" target="_blank">Instagram</a>
+|
+<a href="https://www.pnc.ac.id" target="_blank">Website Kampus (PNC)</a>
+
+<br>
+<br>
+
+<script>
+
+function hobi() {
+var daftar = document.getElementById("daftar-hobi");
+if (daftar.style.display === "none") {
+  daftar.style.display = "inline-block";
+} else {
+  daftar.style.display = "none";
+}
+}
+</script>
+
+</body>
+
+</html>
